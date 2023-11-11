@@ -127,7 +127,7 @@
 ##  Step 12: Artifact Deployment
 + Clone repository to from bewlo repository, we need to do some updates in application.properties file.
 
-      git clone https://github.com/sadebare/vprofile-project.git
+      git clone https://github.com/apotitech/vprofile-project.git
 + 
 We will update below parts in that file. Replace db01 -> RDS endpoint Replace mc01 -> elasticache Endpoint Replace rmq01 -> Actice MQ AMQP endpoint(only take url after //) and port rabbitmq.username=rabbit rabbitmq.password=<replace_with_pwd_you_give_in_tf_vars>
 

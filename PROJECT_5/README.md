@@ -233,7 +233,7 @@
 ##  Step 5: Git Code Migration
   + We will be using a private repository for the exercise. we migrate code to private one. We will be using the repo
 
-        git clone -b ci-jenkins https://github.com/sadebare/vprofile-project.git
+        git clone -b ci-jenkins https://github.com/apotitech/vprofile-project.git
 ##  Step 6: Build job with Nexus repo
   + We need some dependency to build our job on jenkins server which include:- maven and jdk8 to complete our build
   + Do that by navigating from our jenkins ui, manage jenkins > Global Tool Configuration
@@ -294,7 +294,7 @@
 
         sudo -i
         sudo su - jenkins
-        git ls-remote -h -- git@github.com:sadebare/vprociproject.git HEAD
+        git ls-remote -h -- git@github.com:apotitech/vprociproject.git HEAD
   + Now its Build time. Our build pipeline is successful!
     ![build](./images/build1.png)
 ##  Step 7: Github Webhook

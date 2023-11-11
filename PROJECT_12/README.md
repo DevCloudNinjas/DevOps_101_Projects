@@ -53,7 +53,7 @@
   ![docker-install](./images/docker_install.png)
 
 ### Step 4: Dockerfile References
-  + I will use Vscode (any IDE is fine) while creating my images. First I will clone the [repository](https://github.com/sadebare/vprofile-project) in the same directory that I have created my Vagrantfile, this will give me capability to quickly test Docker images that I will create for my application services.
+  + I will use Vscode (any IDE is fine) while creating my images. First I will clone the [repository](https://github.com/apotitech/vprofile-project) in the same directory that I have created my Vagrantfile, this will give me capability to quickly test Docker images that I will create for my application services.
   + We will be using the branch `docker` in the repository, where we will be using a directory `Docker-files` to store our dockerfile we will be creating.
   [Docker file creation Documentation](https://docs.docker.com/engine/reference/builder/)
   + On the docker hub, we will be creating three repositories:

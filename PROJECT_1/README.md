@@ -88,7 +88,7 @@
         mysql -u root -padmin123
   + Next we clone our source code to database vm and change directory to the sql file
 
-        git clone -b local-setup https://github.com/sadebare/vprofile-project.git
+        git clone -b local-setup https://github.com/apotitech/vprofile-project.git
         cd vprofile-project/src/main/resources
   + Initialize the database account by running the following commands
 
@@ -222,7 +222,7 @@
         systemctl enable tomcat
   + Now, we can begin to build and deploy our source code on the Tomcat server by running the following commands
 
-        git clone -b local-setup https://github.com/sadebare/vprofile-project.git
+        git clone -b local-setup https://github.com/apotitech/vprofile-project.git
         cd vprofile-project
         mvn install
         systemctl stop tomcat

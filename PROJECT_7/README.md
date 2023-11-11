@@ -19,10 +19,10 @@
 ![sys-des2](./images/sys-des2.png)
 
 ##  Step 1: Creating Branches And WebHook On Github
-  + This is a continuation of the continuous integration project in [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5). So, we are expected to have our jenkins, sonar and nexus server running
+  + This is a continuation of the continuous integration project in [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5). So, we are expected to have our jenkins, sonar and nexus server running
   + If the server was turned off, we need to get the jenkins public IP and update at the Gitthub webhook level for build trigger.
-  + Navigate to the [project_directory](https://github.com/sadebare/vprofile-project) and switch to the `docker` branch. Then download the zip file of the repository where we can extract it on our local system.
-  + Following up with the directory created from [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5), go to the privately created directory and follow along
+  + Navigate to the [project_directory](https://github.com/apotitech/vprofile-project) and switch to the `docker` branch. Then download the zip file of the repository where we can extract it on our local system.
+  + Following up with the directory created from [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5), go to the privately created directory and follow along
 
         git checkout ci-jenkins
         git checkout -b cicd-jenkins

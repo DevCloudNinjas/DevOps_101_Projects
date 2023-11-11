@@ -76,7 +76,7 @@
 ### Step 8: Source Code Review
 + You can find all kubernetes manifest files by cloning this repository.Clone this repo to your ec2. Make necessary changes in files, before applying kubectl commands.
 
-      https://github.com/sadebare/kube-app
+      https://github.com/apotitech/kube-app
 + In Project-12, we have Containerized the vprofile application and push it to the DockerHub. We will use the images below with :V1 tag from DockerHub repository in our Kubernetes manifests.
 ![docker_files](./images/dockerfiles.png)
 + Our vprofile application is using below application.properties file. We need to create Kubernetes services with the same name given in this file for application to connect them.

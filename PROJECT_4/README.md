@@ -47,7 +47,7 @@ Using this strategy, you move an application to the cloud and modify its archite
         mysql> show databases;
   + Then, clone the source code unto the instance and move into the directory
 
-        git clone https://github.com/sadebare/vprofile-project.git
+        git clone https://github.com/apotitech/vprofile-project.git
         cd vprofile-project
         git checkout aws-Refactor
         cd src/main/resources

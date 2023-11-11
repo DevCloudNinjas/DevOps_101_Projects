@@ -25,7 +25,7 @@
 Clone the Django TODO app by running below command & push that code to your Personal Repository
 
 ```
-git clone https://github.com/tushargangurde2029/django-todo.git
+git clone https://github.com/apotitech/DEVOPS_101_PROJECTS.git
 ```
 
 Note: You need to push this application to your personal repository so you can add SSH keys & add webhooks to implement CI/CD Integration.
@@ -363,5 +363,6 @@ As you can see in the above image build successfully run by github after pushing
 </br>
 
 
-Follow For More Devops: -
-https://www.linkedin.com/in/devops-learning
+Follow For More Devops: - Please check our website
+
+<https://devcloudninjas.com>

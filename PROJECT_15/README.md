@@ -91,10 +91,10 @@ Click install without Restart.
 ### Step 6: Git repo setup
 + We will create a GitHub repository with the name of `cicd-kube-docker`. then we will clone it to our kops instance.
 
-      git clone https://github.com/sadebare/cicd-kube-docker.git
+      git clone https://github.com/apotitech/cicd-kube-docker.git
 + We will also clone the source code repository that we will be using a lot.
 
-      git clone https://github.com/sadebare/vprofile-project.git
+      git clone https://github.com/apotitech/vprofile-project.git
       cd vprofile-project/
       ls
       git checkout vp-docker

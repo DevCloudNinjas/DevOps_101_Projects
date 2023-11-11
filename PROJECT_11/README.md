@@ -4,9 +4,9 @@
 ![sys_arc](./images/Project-11.png)
 
 ##  Prerequisite
-  + [Project-7](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_7)
+  + [Project-7](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_7)
 
-  + [Project-8](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_8)
+  + [Project-8](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_8)
 
 ##  Step 1: Validate continuous integration from jenkins
   + Update the Github webhook with the current jenkins public IP address

@@ -42,7 +42,7 @@
 
         ssh git-codecommit.us-east-1.amazonaws.com
     ![ssh](./images/ssh.png)
-  + Next we clone the repository to a location that we want in our local. I will use the Github repository for vprofile-project in my local, and turn this repository to CodeCommit repository. When I am in Github repo directory, I will run below commands. [source](https://github.com/sadebare/vprofile-project)
+  + Next we clone the repository to a location that we want in our local. I will use the Github repository for vprofile-project in my local, and turn this repository to CodeCommit repository. When I am in Github repo directory, I will run below commands. [source](https://github.com/apotitech/vprofile-project)
 
         git checkout master
         git branch -a | grep -v HEAD | cut -d'/' -f3 | grep -v master > /tmp/branches
@@ -90,14 +90,14 @@
     ![sonar](./images/sonar.png)
   + Next we create a project, `+` -> `Analyze Project` -> `create project manually`. Below details will be used in our Build.
 
-        Organization: sadebare-projectssadebare-projects
+        Organization: apotitech-projectsapotitech-projects
         Name: vprofile-repo
         public
       1[sonar](./images/valid_sonar.png)
 ##  Step 4: Store Sonar variables in System Manager Parameter Store
   + We will create paramters for below variables.
 
-        Organization: sadebare-projectssadebare-projects
+        Organization: apotitech-projectsapotitech-projects
         CODEARTIFACT_TOKEN	 SecureString	
         HOST      https://sonarcloud.io
         PROJECT                vprofile-repo-rd

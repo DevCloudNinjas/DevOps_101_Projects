@@ -5,15 +5,15 @@
   + Github
   + AWS account
   + Ansible
-  + Jenkins server from [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5)
-  + Sonarqube server from [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5)
-  + Nexus server from [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5)
+  + Jenkins server from [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5)
+  + Sonarqube server from [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5)
+  + Nexus server from [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5)
 
-  ##  SYSTEM DESIGN - Continuation of [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5)
+  ##  SYSTEM DESIGN - Continuation of [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5)
   ![design_10](./images/Project-10.png)
 
 ### Step 1: Continuous Integration And Webhook
-  + Log into your AWS console, then navigate to the EC2 services provisioned in [Project-5](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_5) and increase the volume of jenkins server from the default 8GB to 15GB because we will be installing ansible on it.
+  + Log into your AWS console, then navigate to the EC2 services provisioned in [Project-5](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_5) and increase the volume of jenkins server from the default 8GB to 15GB because we will be installing ansible on it.
   + Power on all the three instance which are stopped (Jenkins, Sonarqube and Nexus)
   + Get the jenkins public IP address and update the project repo webhook for the jenkins trigger
   + Login to the jenkins server through the URL '<public-ip>:8080' and run the build again for confirmation.
@@ -64,7 +64,7 @@
       git checkout ci-jenkins
       git checkout -b cicd-jenkins-ansible
   
-  + We will add code from jenkins-ansible-code branch of https://github.com/sadebare/vprofile-project repository. Download zip from this branch.We will extract and copy ansible directory under our local vprofileciproject directory when we are in cicd-jenkins-ansible branch.
+  + We will add code from jenkins-ansible-code branch of https://github.com/apotitech/vprofile-project repository. Download zip from this branch.We will extract and copy ansible directory under our local vprofileciproject directory when we are in cicd-jenkins-ansible branch.
 
         git add .
         git commit -m "adding ansible code"

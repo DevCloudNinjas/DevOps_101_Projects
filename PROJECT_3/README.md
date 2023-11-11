@@ -1,5 +1,5 @@
 # AMAZON WEB SERVICE (AWS) CLOUD FOR WEB APPLICATION SETUP [LIFT AND SHIFT]
-+ In this Project, We will be experiementing with a strategy called `LIFT AND SHIFT` for our web application setup. Lift And Shift is a strategy where application or a code base are being migrated from a local setup to the cloud environment in my case AWS. We will be migrating java based application just like the setup from [project 1](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_1)
++ In this Project, We will be experiementing with a strategy called `LIFT AND SHIFT` for our web application setup. Lift And Shift is a strategy where application or a code base are being migrated from a local setup to the cloud environment in my case AWS. We will be migrating java based application just like the setup from [project 1](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_1)
 
 ##  AWS SERVICES USED
 + Elastic Compute Cloud (EC2)

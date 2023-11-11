@@ -1,6 +1,6 @@
 # Automated setup of Multi Tier Application
 
-This is a follow up project from [project 1](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_1) to setup our application automatically using a bash script to hasten the provisioning and configuration of our virtual machines.
+This is a follow up project from [project 1](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_1) to setup our application automatically using a bash script to hasten the provisioning and configuration of our virtual machines.
 
 ##  Prerequisite
 
@@ -217,7 +217,7 @@ This is a follow up project from [project 1](https://github.com/sadebare/DevOps_
 
 
 ### Step 7:
-  + Create a Vagrantfile as done in [project 1](https://github.com/sadebare/DevOps_101_Projects/tree/main/PROJECT_1) but in the file we automatically install all our dependency using bash scripting. File - [VagrantFile](./Vagrantfile)
+  + Create a Vagrantfile as done in [project 1](https://github.com/apotitech/DevOps_101_Projects/tree/main/PROJECT_1) but in the file we automatically install all our dependency using bash scripting. File - [VagrantFile](./Vagrantfile)
   + A simple vagrant up will bring up all vm and install all the services in all accordingly.
   + After, we then validate our vm from the Virtualbox user interface
         ![vm](./images/vm.png)
